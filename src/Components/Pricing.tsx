@@ -1,3 +1,5 @@
+import React from "react";
+
 export const Pricing = () => {
     return (
         <section className="bg-white dark:bg-gray-900 text-[0.8rem] md:text-[1rem]">
@@ -36,7 +38,10 @@ export const Pricing = () => {
                                 <span>Free updates: <span className="font-semibold">6 months</span></span>
                             </li>
                         </ul>
-                        <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                        <button
+                            className="text-[15px] lg:text-[20px] font-bold border border-solid border-gray-300 bg-gray-300 hover:border-custom-blue py-[5px] sm:py-[9px] px-[32px] rounded-[23px] hover:bg-custom-blue ease-in duration-200 hover:shadow-2xl hover:text-white">
+                            GET STARTED
+                        </button>
                     </div>
                     <div className="flex flex-col p-3 md:p-6 max-w-[400px] md:max-w-lg mx-auto text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                         <h3 className="mb-4 text-[1rem] md:text-[1.5rem] font-semibold">Średniozaawansowany</h3>
@@ -67,7 +72,10 @@ export const Pricing = () => {
                                 <span>Free updates: <span className="font-semibold">24 months</span></span>
                             </li>
                         </ul>
-                        <a href="#" className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                        <button
+                            className="text-[15px] lg:text-[20px] font-bold border border-solid border-gray-300 bg-gray-300 hover:border-custom-blue py-[5px] sm:py-[9px] px-[32px] rounded-[23px] hover:bg-custom-blue ease-in duration-200 hover:shadow-2xl hover:text-white">
+                            GET STARTED
+                        </button>
                     </div>
                     <div className="flex flex-col p-3 md:p-6 mx-auto max-w-[400px] md:max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                         <h3 className="mb-4 text-[1rem] md:text-[1.5rem] font-semibold">Zaawansowany</h3>
@@ -98,7 +106,10 @@ export const Pricing = () => {
                                 <span>Free updates: <span className="font-semibold">36 months</span></span>
                             </li>
                         </ul>
-                        <a href="#" className="text-black bg-primary-600 hover:bg-custom-blue focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+                        <button
+                            className="text-[15px] lg:text-[20px] font-bold border border-solid border-gray-300 bg-gray-300 hover:border-custom-blue py-[5px] sm:py-[9px] px-[32px] rounded-[23px] hover:bg-custom-blue ease-in duration-200 hover:shadow-2xl hover:text-white">
+                            GET STARTED
+                        </button>
                     </div>
                 </div>
             </div>
